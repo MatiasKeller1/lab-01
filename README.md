@@ -67,4 +67,9 @@ Design a personal page that contains relevant information about you:
 
 ### Submission
 
-Upload the repository link with the webpage link to Canvas.
+- Upload the repository link with the webpage link to Canvas.
+- Add in the following section of this file the url of the published site.
+
+## Published site url
+
+You can view the site [here](<here goes the url>)
