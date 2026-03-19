@@ -72,4 +72,4 @@ Design a personal page that contains relevant information about you:
 
 ## Published site url
 
-You can view the site [here](<here goes the url>)
+You can view the site [here](https://matiaskeller1.github.io/lab-01/)
