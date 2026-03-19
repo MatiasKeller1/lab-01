@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Matías Andrés Keller Gómez - Personal Page</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <nav class="navbar custom-navbar sticky-top">
+        <div class="container d-flex justify-content-between align-items-center flex-wrap">
+            <a class="navbar-brand fw-bold text-white" href="#home">Matías Keller</a>
+
+            <div class="navbar-nav d-flex flex-row flex-wrap gap-2">
+                <a class="nav-link px-2" href="#about">About</a>
+                <a class="nav-link px-2" href="#summary">Summary</a>
+                <a class="nav-link px-2" href="#experience">Experience</a>
+                <a class="nav-link px-2" href="#skills">Skills</a>
+                <a class="nav-link px-2" href="#contact">Contact</a>
+                <a class="nav-link px-2" href="#interactive">Interactive</a>
+            </div>
+        </div>
+    </nav>
+
+    <header id="home" class="hero-section py-5">
+        <div class="container">
+            <div class="row align-items-center g-4">
+                <div class="col-lg-4 text-center">
+                    <img src="images/profile.png" alt="Professional portrait of Matías Andrés Keller Gómez"
+                        class="img-fluid profile-photo shadow-lg" />
+                </div>
+
+                <div class="col-lg-8">
+                    <span class="badge rounded-pill text-bg-warning mb-3 px-3 py-2">
+                        Personal Website - Lab 01
+                    </span>
+
+                    <h1 class="display-5 fw-bold mb-3">
+                        Matías Andrés Keller Gómez
+                    </h1>
+
+                    <p class="lead mb-2">
+                        Industrial Engineering and Operations Management Student
+                    </p>
+
+                    <p class="hero-subtext mb-3">
+                        Minor in Innovation | Business Intelligence, Data Platforms, Analytics & Digital Transformation
+                    </p>
+
+                    <div class="d-flex flex-wrap gap-3">
+                        <a href="#summary" class="btn btn-light btn-lg fw-semibold">View Profile</a>
+                        <a href="https://www.mpm.cl/" target="_blank" rel="noopener noreferrer"
+                            class="btn btn-warning btn-lg fw-semibold">
+                            Visit MPM
+                        </a>
+                    </div>
+
+                    <p id="heroNote" class="mt-3 fw-semibold text-light">
+                        Personal note: motivated by data, innovation, and real-world impact.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="py-4">
+        <div class="container">
+            <div class="row g-4 mb-4">
+                <div class="col-lg-7">
+                    <section id="about" class="card custom-card h-100">
+                        <div class="card-body p-4">
+                            <h2 class="card-title section-title">About Me</h2>
+                            <p class="card-text">
+                                Hello! My name is Matías Andrés Keller Gómez. I am an Industrial
+                                Engineering and Operations Management student with a Minor in Innovation.
+                                I am especially interested in business intelligence, data platforms,
+                                analytics, operations, and technology-driven problem solving.
+                            </p>
+                        </div>
+                    </section>
+                </div>
+
+                <div class="col-lg-5">
+                    <section class="card custom-card h-100">
+                        <div class="card-body p-4">
+                            <h2 class="card-title section-title">Personal Details</h2>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">
+                                    <strong>Major:</strong> Industrial Engineering and Operations Management
+                                </li>
+                                <li class="list-group-item">
+                                    <strong>Minor:</strong> Innovation
+                                </li>
+                                <li class="list-group-item">
+                                    <strong>Year of University Enrollment:</strong> 2021
+                                </li>
+                                <li class="list-group-item">
+                                    <strong>GitHub:</strong>
+                                    <a href="https://github.com/MatiasKeller1" target="_blank"
+                                        rel="noopener noreferrer">
+                                        github.com/MatiasKeller1
+                                    </a>
+                                </li>
+                                <li class="list-group-item">
+                                    <strong>External Link:</strong>
+                                    <a href="https://www.mpm.cl/" target="_blank" rel="noopener noreferrer">
+                                        MPM Rental
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </section>
+                </div>
+            </div>
+
+            <section id="summary" class="card custom-card mb-4">
+                <div class="card-body p-4">
+                    <h2 class="card-title section-title">Professional Summary</h2>
+                    <p>
+                        I am currently involved in data and business intelligence projects focused on
+                        transforming fragmented business information into reliable decision-making systems.
+                        My work includes cleaning and standardizing Excel-based data sources, designing
+                        data pipelines for Power BI, organizing structured backups in Microsoft Fabric
+                        lakehouses, creating dataflows, and developing dashboards with high-value KPIs
+                        for senior management.
+                    </p>
+                    <p class="mb-0">
+                        My professional interests are centered on data architecture, analytics,
+                        reporting automation, operational improvement, and digital transformation.
+                        I enjoy combining technical tools with business understanding to build practical
+                        and scalable solutions.
+                    </p>
+                </div>
+            </section>
+
+            <div class="row g-4 mb-4">
+                <div class="col-lg-8">
+                    <section id="experience" class="card custom-card h-100">
+                        <div class="card-body p-4">
+                            <h2 class="card-title section-title">Experience Highlights</h2>
+                            <p>
+                                During my professional internship at MPM Rental, I contributed to the design
+                                and implementation of the company’s first Business Intelligence platform for
+                                the rental business. The project involved integrating dispersed Excel data
+                                sources, building cloud-based ETL processes, designing a relational analytical
+                                model, and creating executive dashboards in Power BI.
+                            </p>
+                            <p class="mb-0">
+                                The final solution included automated data flows, integrated relational modeling,
+                                and validated financial and operational indicators. This project helped management
+                                move from fragmented manual analysis to centralized and faster access to business
+                                information.
+                            </p>
+                        </div>
+                    </section>
+                </div>
+
+                <div class="col-lg-4">
+                    <section class="card custom-card h-100">
+                        <div class="card-body p-4">
+                            <h2 class="card-title section-title">Interests</h2>
+                            <p class="mb-0">
+                                My main interests are business intelligence, data platforms, process improvement,
+                                innovation, analytics, and digital transformation. Outside academics and work,
+                                I have also served as a firefighter for four years, which has strengthened my
+                                discipline, teamwork, and decision-making under pressure.
+                            </p>
+                        </div>
+                    </section>
+                </div>
+            </div>
+
+            <section id="skills" class="card custom-card mb-4">
+                <div class="card-body p-4">
+                    <h2 class="card-title section-title">Skills Table</h2>
+
+                    <div class="table-responsive">
+                        <table class="table table-striped table-hover align-middle custom-table mb-0">
+                            <thead class="table-dark">
+                                <tr>
+                                    <th>Skill</th>
+                                    <th>Level</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Power BI</td>
+                                    <td>Advanced</td>
+                                </tr>
+                                <tr>
+                                    <td>Microsoft Fabric</td>
+                                    <td>Advanced</td>
+                                </tr>
+                                <tr>
+                                    <td>Python</td>
+                                    <td>Intermediate</td>
+                                </tr>
+                                <tr>
+                                    <td>SQL</td>
+                                    <td>Intermediate</td>
+                                </tr>
+                                <tr>
+                                    <td>Excel</td>
+                                    <td>Intermediate</td>
+                                </tr>
+                                <tr>
+                                    <td>Tableau</td>
+                                    <td>Intermediate</td>
+                                </tr>
+                                <tr>
+                                    <td>Arena Simulation</td>
+                                    <td>Intermediate</td>
+                                </tr>
+                                <tr>
+                                    <td>English</td>
+                                    <td>Advanced (C2)</td>
+                                </tr>
+                                <tr>
+                                    <td>Spanish</td>
+                                    <td>Native</td>
+                                </tr>
+                                <tr>
+                                    <td>Portuguese</td>
+                                    <td>Intermediate (B1)</td>
+                                </tr>
+                                <tr>
+                                    <td>Git</td>
+                                    <td>Basic</td>
+                                </tr>
+                                <tr>
+                                    <td>HTML/CSS</td>
+                                    <td>Basic</td>
+                                </tr>
+                                <tr>
+                                    <td>JavaScript</td>
+                                    <td>Basic</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </section>
+
+            <section id="contact" class="card custom-card mb-4">
+                <div class="card-body p-4">
+                    <h2 class="card-title section-title">Contact</h2>
+                    <p>You can contact me through GitHub or email.</p>
+
+                    <div class="d-flex flex-wrap gap-3">
+                        <a href="https://github.com/MatiasKeller1" target="_blank" rel="noopener noreferrer"
+                            class="btn btn-dark">
+                            Visit my GitHub
+                        </a>
+
+                        <a href="mailto:makeller@miuandes.cl?subject=Contact%20from%20your%20personal%20website"
+                            class="btn btn-outline-primary">
+                            Send me an Email
+                        </a>
+
+                        <a href="https://www.mpm.cl/" target="_blank" rel="noopener noreferrer" class="btn btn-warning">
+                            Visit MPM
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <section id="interactive" class="card custom-card mb-5">
+                <div class="card-body p-4">
+                    <h2 class="card-title section-title">Interactive Section</h2>
+                    <p>Write a short post and publish it on the page:</p>
+
+                    <div class="row g-3 align-items-center">
+                        <div class="col-md-8">
+                            <input type="text" id="userInput" class="form-control form-control-lg"
+                                placeholder="Write a short message..." />
+                        </div>
+                        <div class="col-md-2">
+                            <button id="changeButton" class="btn btn-primary btn-lg w-100">
+                                Post
+                            </button>
+                        </div>
+                        <div class="col-md-2">
+                            <button id="clearButton" class="btn btn-outline-danger btn-lg w-100">
+                                Clear
+                            </button>
+                        </div>
+                    </div>
+
+                    <div id="dynamicText" class="alert alert-info mt-4 mb-3">
+                        Your published posts will appear below.
+                    </div>
+
+                    <div id="messageBoard" class="message-board"></div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
